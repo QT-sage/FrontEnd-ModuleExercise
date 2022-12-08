@@ -1,0 +1,44 @@
+{
+  "id": "3767616",
+  "name": "分享模块",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8481279",
+      "name": "分享方式",
+      "font_class": "fenxiangfangshi",
+      "unicode": "ed2e",
+      "unicode_decimal": 60718
+    },
+    {
+      "icon_id": "1444476",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "4936972",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e87f",
+      "unicode_decimal": 59519
+    },
+    {
+      "icon_id": "11982167",
+      "name": "telegram",
+      "font_class": "telegram",
+      "unicode": "e9ac",
+      "unicode_decimal": 59820
+    },
+    {
+      "icon_id": "27402571",
+      "name": "推特",
+      "font_class": "tuite",
+      "unicode": "ee49",
+      "unicode_decimal": 61001
+    }
+  ]
+}

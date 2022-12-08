@@ -1,0 +1,101 @@
+@import "base.less";
+
+body{
+    // font-family: "montserrat", sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .btn{
+        width: 280px;
+        height: 80px;
+        background-color: #dfe6e9;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        transition: .3s linear;
+
+        &:hover{
+            transform: scale(1.1);
+
+            span{
+                transform: translate(-100%);
+                transition-delay: .3s;
+            }
+
+            a{
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        span{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #2d3436;
+            color: #f1f1f1;
+            text-align: center;
+            line-height: 80px;
+            z-index: 666;
+            transition: .6s linear;
+            border-radius: 40px;
+            // opacity: 0;
+            font-size: 20px;
+
+            i{
+                font-size: 20px;
+                margin-right: 10px;
+            }
+        }
+
+        a{
+            flex: 1;
+            font-size: 26px;
+            color: #2d3436;
+            text-align: center;
+            text-decoration: none;
+            transform: translateX(-100%);
+            opacity: 0;
+            transition: 0.3s linear;
+
+            &:nth-of-type(1){
+                transition-delay: 1s;
+                color: rgb(96, 195, 235);
+            }
+
+            &:nth-of-type(2){
+                transition-delay: .8s;
+                color: yellowgreen;
+            }
+
+            &:nth-of-type(3){
+                transition-delay: .6s;
+                color: rgb(75, 75, 156);
+            }
+
+            &:nth-of-type(4){
+                transition-delay: .4s;
+                color: skyblue;
+            }
+
+            .iconfont{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+// 代码逻辑：
+//     1.将btn添加宽度高度进行布局
+//     2.将span相对于父级定位，并设置显示在最上层
+//     3.设置当鼠标经过btn时，span进行移动
+//     4.当span开始移动时，显示a
+//     5.给a添加移出效果，并添加延时进入效果
+//     6.当鼠标经过btn时，a开始延时进入，恰好达到span完全移出，a完全进入效果
