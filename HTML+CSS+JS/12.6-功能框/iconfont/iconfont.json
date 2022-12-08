@@ -1,0 +1,86 @@
+{
+  "id": "3812852",
+  "name": "功能框",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12306464",
+      "name": "水滴",
+      "font_class": "shuidi",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "17605506",
+      "name": "阳光",
+      "font_class": "yangguang",
+      "unicode": "e819",
+      "unicode_decimal": 59417
+    },
+    {
+      "icon_id": "685503",
+      "name": "雷电",
+      "font_class": "leidian",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "685507",
+      "name": "小雨",
+      "font_class": "xiaoyu",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "11372690",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "13645764",
+      "name": "龙卷风",
+      "font_class": "longjuanfeng",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "18170211",
+      "name": "云端,云,云服务",
+      "font_class": "cloud",
+      "unicode": "e988",
+      "unicode_decimal": 59784
+    },
+    {
+      "icon_id": "1108",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "200975",
+      "name": "3.1雾",
+      "font_class": "31wu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9474681",
+      "name": "风",
+      "font_class": "feng",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "14338984",
+      "name": "雪",
+      "font_class": "xue",
+      "unicode": "e78c",
+      "unicode_decimal": 59276
+    }
+  ]
+}

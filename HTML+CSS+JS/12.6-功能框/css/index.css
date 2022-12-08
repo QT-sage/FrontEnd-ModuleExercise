@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #161a23;
+}
+body .main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+}
+body .main .nacigation {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+body .main .nacigation span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  transform: translate(calc(14px * var(--x)), calc(14px * var(--y)));
+  transition: transform 0.5s, width 0.5s, height 0.5s, background 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+}
+body .main .nacigation span .iconfont {
+  transition: 0.5s;
+  font-size: 0em;
+}
+body .main .nacigation.active span {
+  width: 45px;
+  height: 45px;
+  transform: translate(calc(60px * var(--x)), calc(60px * var(--y)));
+  background-color: #1f2536;
+}
+body .main .nacigation.active span .iconfont {
+  font-size: 1.35em;
+  color: #fff;
+}
+body .main .nacigation.active span:hover .iconfont {
+  color: #2dfc52;
+  filter: drop-shadow(0 0 2px #2dfc52) drop-shadow(0 0 5px #2dfc52) drop-shadow(0 0 15px #2dfc52);
+}
+body .main .nacigation.active ~ .close {
+  width: 40px;
+  height: 40px;
+  pointer-events: initial;
+  transition-delay: 0.8s;
+  background-color: #2dfc52;
+}
+body .main .nacigation.active ~ .close .iconfont {
+  scale: 1;
+  transition-delay: 1s;
+}
+body .main .nacigation ~ .close .iconfont {
+  font-size: 2em;
+  scale: 0;
+  color: #10131c;
+  transition: 0.5s;
+}
+body .main .close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+  pointer-events: none;
+}
