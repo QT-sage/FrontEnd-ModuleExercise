@@ -1,0 +1,44 @@
+{
+  "id": "3786440",
+  "name": "下拉菜单模块",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "685503",
+      "name": "雷电",
+      "font_class": "leidian",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "685507",
+      "name": "小雨",
+      "font_class": "xiaoyu",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "11372690",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "13645764",
+      "name": "龙卷风",
+      "font_class": "longjuanfeng",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "18170211",
+      "name": "云端,云,云服务",
+      "font_class": "cloud",
+      "unicode": "e988",
+      "unicode_decimal": 59784
+    }
+  ]
+}
